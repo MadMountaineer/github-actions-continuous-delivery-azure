@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [labeled]
     
-    env:
+env:
   DOCKER_IMAGE_NAME: MadMountaineer-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
   #################################################
